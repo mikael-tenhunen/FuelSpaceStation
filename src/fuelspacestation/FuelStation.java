@@ -104,6 +104,8 @@ public class FuelStation {
         System.out.println(vehicle.getVehicleId() + " refueling...");
         nitrogen -= nRequest;
         quantumFluid -= qRequest;
+        //signal all to give the supplier that can deliver priority
+        //over the supplier that can't
         deliverCond.signalAll();
         fuelLock.unlock();
         try {

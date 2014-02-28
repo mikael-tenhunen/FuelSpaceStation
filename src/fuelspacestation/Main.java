@@ -10,10 +10,10 @@ import java.util.concurrent.Executors;
  * @author Mikael Tenhunen
  */
 public class Main {
-    final static int MINTRAVELTIME = 10;
-    final static int MAXTRAVELTIME = 50;  
-    final static int MINREFUELTIME = 1;
-    final static int MAXREFUELTIME = 10; 
+    final static int MINTRAVELTIME = 500;
+    final static int MAXTRAVELTIME = 2000;  
+    final static int MINREFUELTIME = 500;
+    final static int MAXREFUELTIME = 1000; 
     final static int VEHICLEN = 500;
     final static int VEHICLEQ = 500;
     final static int SUPPLYTANK = 10000;
