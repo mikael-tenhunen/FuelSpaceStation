@@ -14,15 +14,15 @@ public class Main {
     final static int MAXTRAVELTIME = 2000;  
     final static int MINREFUELTIME = 500;
     final static int MAXREFUELTIME = 1000; 
-    final static int VEHICLEN = 500;
-    final static int VEHICLEQ = 500;
-    final static int SUPPLYTANK = 10000;
-    final static int STATIONTANK = 20000;
-    final static int STATIONDOCKS = 4;
-    final static int NITROGEN = 0;
-    final static int QUANTUMFLUID = 1;
-    final static int NRSPACEVEHICLES = 20;
-    final static int NRSUPPLYVEHICLES = 2;
+    final static int VEHICLEN = 500;        //nitrogen capacity of SpaceVehicle
+    final static int VEHICLEQ = 500;        //quantum fluid capacity of SpaceVehicle
+    final static int SUPPLYTANK = 10000;    //capacity of cargo tank of SupplyVehicle
+    final static int STATIONTANK = 20000;   //capacity of each tank in a FuelStation
+    final static int STATIONDOCKS = 4;      //number of docks at FuelStation
+    final static int NITROGEN = 0;          //identifier for nitrogen
+    final static int QUANTUMFLUID = 1;      //identifier for quantum fluid
+    final static int NRSPACEVEHICLES = 20;  //number of vehicles that only refuel
+    final static int NRSUPPLYVEHICLES = 2;  //number of vehicles that also deliver fuel
     
     public static void main(String[] args) {
         //Create vehicles and start them with executor
